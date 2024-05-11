@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1f1517;
+    color: #FFFFFF;
+}
+
+html {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    }
+
+ul {
+    list-style: none;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: Teko;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    color: #FFF2E780;
+}
+
+.apresentacao_mocaccino {
+    display: flex;
+    flex-direction: column;
+
+    max-height: 1120px;
+    padding: 2rem 3rem;
+    margin: auto;
+}
+
+h2{
+    color: #FFF2E7;
+    padding: 1rem 3rem;
+}
+
+h3 {
+    color: #a45a49;
+    padding: 1rem 3rem;
+}
+
+p {
+    color: #FFF2E7;
+    padding-left: 3rem;
+}
+
+
+footer {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background: #23181a;
+}
+.footer-copy {
+    color: #FFF2E7;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-autor {
+    color: rgba(255, 242, 231, 0.50);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
